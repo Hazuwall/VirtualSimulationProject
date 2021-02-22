@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <launch>
 
-  <arg name="robot" default="youbot"/>
-  <arg name="world" default="robocup_at_work_2012"/>
+  <arg name="robot" default="youbot_with_camera"/>
   <arg name="init_pos_x" default="0.0"/>
   <arg name="init_pos_y" default="0.0"/>
   <arg name="init_pos_z" default="0.1"/>
 
-  <!-- launch world -->
-  <include file="$(find youbot_gazebo_worlds)/launch/$(arg world).launch" />
-
-  <param name="robot_description" command="xacro $(find youbot_description)/robots/$(arg robot).urdf.xacro" />
+  <param name="robot_description" command="xacro $(find youbot_description)/robots/youbot.urdf.xacro" />
 
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_robot" respawn="false" output="screen"
-    args="-file $(find robust_youbot_description)/sdf/youbot_with_camera.sdf
+    args="-file $(find robust_youbot_description)/sdf/$(arg robot).sdf
           -sdf
           -x $(arg init_pos_x)
           -y $(arg init_pos_y)

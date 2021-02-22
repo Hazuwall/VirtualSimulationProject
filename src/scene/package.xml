@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>scene</name>
+  <version>0.0.0</version>
+  <description>Scene</description>
+
+  <maintainer email="p.seleznyov2005@yandex.ru">Pavel Seleznev</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="p.seleznyov2005@yandex.ru">Pavel Seleznev</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>gazebo_ros</run_depend>
+
+  <test_depend>roslaunch</test_depend>
+
+</package>
