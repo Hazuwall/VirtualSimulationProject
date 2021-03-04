@@ -82,7 +82,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='unit_box'>
+    <model name='obs1'>
       <pose frame=''>-1.55632 0.057962 0.5 0 -0 0</pose>
       <link name='link'>
         <inertial>
@@ -135,7 +135,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_0'>
+    <model name='obs2'>
       <pose frame=''>-1.40439 1.54487 0.5 0 -0 0</pose>
       <link name='link'>
         <inertial>
@@ -213,7 +213,7 @@
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box'>
+      <model name='obs1'>
         <pose frame=''>-1.37189 2.02589 0.380458 -1.1e-05 9e-06 -0.062138</pose>
         <scale>0.394537 1.37104 0.195964</scale>
         <link name='link'>
@@ -223,7 +223,7 @@
           <wrench>0.184791 -0.708004 -4.65763 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_0'>
+      <model name='obs2'>
         <pose frame=''>-1.39211 1.53862 0.141242 0 -0 0.019118</pose>
         <scale>0.385668 0.349582 0.282485</scale>
         <link name='link'>
@@ -233,7 +233,7 @@
           <wrench>0.029866 -1.58824 8.03736 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_1'>
+      <model name='obs3'>
         <pose frame=''>-1.34775 2.54231 0.141241 0 6e-06 -0.09327</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -243,7 +243,7 @@
           <wrench>0.887101 -0.089015 -1.22126 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_1_1'>
+      <model name='obs4'>
         <pose frame=''>-1.22767 0.494973 0.113521 0 -0 0.259164</pose>
         <scale>0.811581 4.0441 0.735898</scale>
         <link name='link'>
@@ -253,7 +253,7 @@
           <wrench>-0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_1_1_5'>
+      <model name='obs5'>
         <pose frame=''>-4.37611 2.48914 0.113521 0 -0 1.38696</pose>
         <scale>1 0.871945 1</scale>
         <link name='link'>
@@ -263,7 +263,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_1_4'>
+      <model name='obs6'>
         <pose frame=''>-3.318 0.303374 0.154262 0 -0 0.000159</pose>
         <scale>1 1 1.09218</scale>
         <link name='link'>
@@ -273,7 +273,7 @@
           <wrench>0 -0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_1_5'>
+      <model name='obs7'>
         <pose frame=''>-4.03514 0.765267 0.141242 0 -0 0.269066</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -283,7 +283,7 @@
           <wrench>0 -0 -0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_1_6'>
+      <model name='obs8'>
         <pose frame=''>-2.81599 1.74335 0.141242 0 0 -0.053597</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -293,7 +293,7 @@
           <wrench>-0 -0 -0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_1_7'>
+      <model name='obs9'>
         <pose frame=''>-5.28652 1.70892 0.141242 0 0 -0.372347</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -303,7 +303,7 @@
           <wrench>0 -0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_3_0'>
+      <model name='obs10'>
         <pose frame=''>-7.43095 1.09287 0.113521 0 -0 0.196256</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -313,7 +313,7 @@
           <wrench>3.3e-05 2e-06 1e-06 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_3_1'>
+      <model name='obs11'>
         <pose frame=''>-6.69457 3.42557 0.113521 0 -0 -1.75062</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -323,7 +323,7 @@
           <wrench>5e-06 1.3e-05 -2.1e-05 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_8'>
+      <model name='obs12'>
         <pose frame=''>-4.0906 4.06372 0.252518 0 -4e-06 1.34416</pose>
         <scale>1 1 2.22442</scale>
         <link name='link'>
@@ -333,7 +333,7 @@
           <wrench>-0.297374 -1.28958 -2.08323 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_box_8_0'>
+      <model name='obs13'>
         <pose frame=''>-4.70357 3.40031 0.183408 0 -0 2.96015</pose>
         <scale>1 1 1.61563</scale>
         <link name='link'>
@@ -343,7 +343,7 @@
           <wrench>-0 -0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_cylinder'>
+      <model name='obs14'>
         <pose frame=''>-2.10534 2.90376 0.292011 3e-06 1e-06 -0.269822</pose>
         <scale>0.258771 0.258771 0.584039</scale>
         <link name='link'>
@@ -353,7 +353,7 @@
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_cylinder_1'>
+      <model name='obs15'>
         <pose frame=''>-5.17677 0.385074 0.29201 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -363,7 +363,7 @@
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_cylinder_1_0'>
+      <model name='obs16'>
         <pose frame=''>-6.17621 1.069 0.292019 -0 -0 -0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -373,7 +373,7 @@
           <wrench>0 0 -9.8 0 -0 0</wrench>
         </link>
       </model>
-      <model name='unit_cylinder_1_1'>
+      <model name='obs17'>
         <pose frame=''>-6.89623 2.47314 0.292019 -0 -0 -0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
@@ -414,7 +414,7 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
-    <model name='unit_box_1'>
+    <model name='obs3'>
       <pose frame=''>-1.37396 2.27901 0.141243 0 -0 0</pose>
       <link name='link'>
         <inertial>
@@ -467,7 +467,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_1_4'>
+    <model name='obs6'>
       <pose frame=''>-2.18315 -0.510347 0.141242 -1e-06 -0 0.000159</pose>
       <link name='link'>
         <inertial>
@@ -520,7 +520,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_1_5'>
+    <model name='obs7'>
       <pose frame=''>-3.94601 1.00787 0.141241 0 8e-06 0.000234</pose>
       <link name='link'>
         <inertial>
@@ -573,7 +573,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_1_6'>
+    <model name='obs8'>
       <pose frame=''>-2.78722 0.870972 0.141243 -1e-06 -0 0.00026</pose>
       <link name='link'>
         <inertial>
@@ -626,7 +626,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_1_7'>
+    <model name='obs9'>
       <pose frame=''>-4.85938 0.234814 0.141241 -5e-06 -5e-06 0.000335</pose>
       <link name='link'>
         <inertial>
@@ -679,7 +679,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_cylinder'>
+    <model name='obs14'>
       <pose frame=''>-1.4887 3.4525 0.5 0 -0 0</pose>
       <link name='link'>
         <inertial>
@@ -840,7 +840,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_1_1'>
+    <model name='obs4'>
       <pose frame=''>-1.68367 0.059043 0.154262 0 -0 0.000159</pose>
       <link name='link'>
         <inertial>
@@ -893,7 +893,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_1_1_5'>
+    <model name='obs5'>
       <pose frame=''>-3.89414 3.31717 0.113521 0 -0 0.196256</pose>
       <link name='link'>
         <inertial>
@@ -946,7 +946,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_8'>
+    <model name='obs12'>
       <pose frame=''>-3.57735 3.84761 0.113521 0 -0 0.445184</pose>
       <link name='link'>
         <inertial>
@@ -999,7 +999,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_8_0'>
+    <model name='obs13'>
       <pose frame=''>-4.07946 3.36699 0.113521 0 -0 0.445184</pose>
       <link name='link'>
         <inertial>
@@ -1052,7 +1052,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_cylinder_1'>
+    <model name='obs15'>
       <pose frame=''>-5.17677 0.385074 0.29201 0 -0 0</pose>
       <link name='link'>
         <inertial>
@@ -1107,7 +1107,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_cylinder_1_0'>
+    <model name='obs16'>
       <pose frame=''>-6.17621 1.069 0.29201 0 -0 0</pose>
       <link name='link'>
         <inertial>
@@ -1162,7 +1162,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_3_0'>
+    <model name='obs10'>
       <pose frame=''>-7.43095 1.09287 0.113521 0 -0 0.196256</pose>
       <link name='link'>
         <inertial>
@@ -1215,7 +1215,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_box_3_1'>
+    <model name='obs11'>
       <pose frame=''>-6.29655 3.44966 0.113521 0 -0 0.196256</pose>
       <link name='link'>
         <inertial>
@@ -1268,7 +1268,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <model name='unit_cylinder_1_1'>
+    <model name='obs17'>
       <pose frame=''>-7.35713 2.63303 0.292019 -0 -0 -0</pose>
       <link name='link'>
         <inertial>
