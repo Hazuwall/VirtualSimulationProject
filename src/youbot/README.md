@@ -130,8 +130,6 @@
 
   - **robot** - имя SDF-модели из пакета **robust_youbot_description**;
 
-  - **robust_youbot_description**;
-
   - **init_x** - начальное положение робота по оси X;
 
   - **init_y** - начальное положение робота по оси Y;
