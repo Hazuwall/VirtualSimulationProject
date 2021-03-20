@@ -132,6 +132,34 @@
 
 ### Программное управление
 
-1. Использовать топик `/cmd_vel` для управления направлением движения.
+1. Использовать топик `/cmd_vel` для управления направлением движения:
+
+   ```
+   rospy.init_node('direction_node', anonymous=True)
+   velocity_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+
+   twist = Twist()
+   twist.linear.x = 1
+   twist.angular.z = 1
+   velocity_pub.publish(twist)
+   ```
 
 2. Использовать топик `/arm_1/arm_controller/command` для отправки команд манипулятору.
+
+   ```
+   rospy.init_node('arm_node', anonymous=True)
+   traj_pub = rospy.Publisher('/arm_1/arm_controller/command', Twist, queue_size=10)
+
+   rate = rospy.Rate(10)
+   while not rospy.is_shutdown():
+      traj = JointTrajectory()
+      traj.joint_names = ["arm_joint_1", "arm_joint_2",
+                           "arm_joint_3", "arm_joint_4", "arm_joint_5"]
+      point = JointTrajectoryPoint()
+      point.positions = [0, 0.6, -3.5, 0.65, 0]
+      point.time_from_start.secs = 1
+      traj.points = [point]
+
+      traj_pub.publish(traj)
+      rate.sleep()
+   ```
